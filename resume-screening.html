@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开弈26年管培生-账务岗简历筛选</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div id="qrcode-container">
+        <div id="qrcode"></div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <h1>开弈26年管培生-账务岗简历筛选</h1>
+            <div class="header-info">
+                <span class="date">第一批-简历样本约140份，面试简历约68份</span>
+            </div>
+        </header>
+        
+        <div class="main-content">
+            <!-- 左侧应聘者列表 -->
+            <div class="left-panel">
+                <h2>应聘者</h2>
+                <div class="candidate-list">
+                    <div class="candidate-item active" data-candidate="zhuzhixuan">
+                        <div class="candidate-name">朱芷萱</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="liuchuandong">
+                        <div class="candidate-name">刘传东</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="tangjiali">
+                        <div class="candidate-name">唐家丽</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="lujiaqi">
+                        <div class="candidate-name">鲁嘉琪</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="jinyue">
+                        <div class="candidate-name">金悦</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="wuhaogao">
+                        <div class="candidate-name">吴昊杲</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                    <div class="candidate-item" data-candidate="wangdongxue">
+                        <div class="candidate-name">王冬雪</div>
+                        <div class="candidate-indicator"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 中间简历上传区 -->
+            <div class="middle-panel">
+                <h2>简历管理</h2>
+                <div class="resume-module">
+                    <h3>简历上传与预览</h3>
+                    <div id="upload-section" class="upload-section">
+                        <div class="upload-area">
+                            <div class="upload-icon">📄</div>
+                            <p>拖拽文件到此处或点击上传</p>
+                            <input type="file" id="resume-upload" accept=".pdf,.doc,.docx">
+                            <button class="upload-btn">选择文件</button>
+                        </div>
+                        <div class="upload-status">
+                            <p>未上传简历</p>
+                        </div>
+                    </div>
+                    <div class="preview-content">
+                        <p>请上传简历文件</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 右侧能力展示区 -->
+            <div class="right-panel">
+                <h2>能力评估</h2>
+                <div class="ability-content">
+                    <div id="zhuzhixuan-abilities" class="ability-section active">
+                        <h3>朱芷萱</h3>
+                        <ul class="ability-list">
+                            <li>华东师范大学本科统计学</li>
+                            <li>乐观积极</li>
+                            <li>职业化程度高</li>
+                            <li>文字能力和数字能力都ok</li>
+                            <li>精通Python等工具</li>
+                        </ul>
+                    </div>
+                    <div id="liuchuandong-abilities" class="ability-section">
+                        <h3>刘传东</h3>
+                        <ul class="ability-list">
+                            <li>华东理工大学研究生数学与应用数学</li>
+                            <li>上海理工大学本科数学与应用数学</li>
+                            <li>情绪稳定</li>
+                            <li>有上进心</li>
+                            <li>精通SQL，熟练掌握Python等工具</li>
+                        </ul>
+                    </div>
+                    <div id="tangjiali-abilities" class="ability-section">
+                        <h3>唐家丽</h3>
+                        <ul class="ability-list">
+                            <li>开朗外向</li>
+                            <li>参加过两个省级比赛，获得第三名</li>
+                            <li>技术能力强，有自行用Python搭建数据模型</li>
+                        </ul>
+                    </div>
+                    <div id="lujiaqi-abilities" class="ability-section">
+                        <h3>鲁嘉琪</h3>
+                        <ul class="ability-list">
+                            <li>开朗积极</li>
+                            <li>有做过数学老师的经历</li>
+                            <li>Python省二级证书</li>
+                            <li>计算机设计大赛省级三等奖</li>
+                        </ul>
+                    </div>
+                    <div id="jinyue-abilities" class="ability-section">
+                        <h3>金悦</h3>
+                        <ul class="ability-list">
+                            <li>26年毕业的应届毕业生</li>
+                            <li>文字功底强</li>
+                            <li>乐观开朗积极，沟通顺畅</li>
+                            <li>有登记日记账、财务档案整理的实习工作经验</li>
+                        </ul>
+                    </div>
+                    <div id="wuhaogao-abilities" class="ability-section">
+                        <h3>吴昊杲</h3>
+                        <ul class="ability-list">
+                            <li>文字功底扎实</li>
+                            <li>沟通顺畅</li>
+                            <li>软件工程的专业奠定了使用SQL等工具的基础</li>
+                        </ul>
+                    </div>
+                    <div id="wangdongxue-abilities" class="ability-section">
+                        <h3>王冬雪</h3>
+                        <ul class="ability-list">
+                            <li>适应能力强</li>
+                            <li>沟通顺畅</li>
+                            <li>有数学教师的实习经验（有高中数学教师资格证）</li>
+                            <li>有初级会计证</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>© 2026 | 招聘系统 v1.0</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
